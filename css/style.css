@@ -54,9 +54,193 @@
        margin-left: 15%;
    }
 
+
+   .content{
+       padding-top: 40%;
+       padding-left: 40%;
+       width: 100%;
+   }
+
 .content h1{
     color: white;
     font-size: 30pt;
-    width: 135%;
+    width: 135%;   
+}
+
+.content p{
+    color: white;
+    font-size: 15pt;
+    margin-top: 10%;
+}
+
+.content button{
+    background: none;
+    border: 1px solid white;
+    color: white;
+    padding: 4%;
+    width: 170px;
+    font-size: 16pt;
+    margin-top: 8%;
+
+}
+
+
+.main{
+    display: flex;
+    flex-direction: column; 
+    margin: 6%;
+    padding-left: 15%;
+}
+
+
+.our_progect{
+    display: flex;
+    flex-direction: row; 
+    margin-bottom: 6%;
+}
+
+.our_progect svg{
+    padding-right: 6%;
+}
+
+.our_progect h1{
+    font-size: 20pt;
+    margin-top: -1%;
+}
+
+
+.choise{
+    margin-bottom: 5%;
+    margin-left: 30%;
+    display: flex;
+}
+
+.choise a{
+    font-size: 20pt;
+    color: black;
+    text-decoration: none;
+    margin: 3%;
+}
+
+.choise a:hover{
+    text-decoration: underline;
+    color: blue;
+    
+}
+
+.butt{
+    display: flex;
+    flex-direction: row;
+    padding-left: 47%;
+    padding-top: -2%;
+    
+}
+
+.butt button{
    
+    width: 40px;
+    background: none;
+    border: 1px solid rgb(0, 174, 255);
+    padding: 10%;
+    margin-top: -2%;
+}
+
+
+.photos{
+    display: flex;
+    flex-direction: row;
+}
+
+.photos img{
+    padding: 1%;
+}
+
+
+.product{
+    display: flex;
+    flex-direction: row;
+}
+
+.product img{
+    margin: 1%;
+}
+
+
+.main p{
+    font-size: 15pt;
+    width: 25%;
+    margin-top: 8%;
+    margin-right: 5%;
+}
+
+.procat{
+    display: flex;
+    flex-direction: row;
+}
+
+.new{
+    display: flex;
+    flex-direction: column;
+    border: 4px solid rgb(0, 90, 193);
+    padding: 3%;
+    width: 665px;
+    margin-bottom: 12%
+}
+
+
+.block1{
+    display: flex;
+    flex-direction: row;
+}
+
+.block1 svg{
+    margin-left: 10%;
+}
+
+.block1 h4{
+    margin-top: 3%;
+}
+
+.block2{
+    display: flex;
+    flex-direction: row;
+}
+
+.block2 img{
+    width: 255px;
+    height: 250px;
+    margin: 2%;
+}
+
+
+.block3{
+    display: flex;
+    flex-direction: column;
+    margin: 6%;
+  
+}
+
+.block3 h3{
+    margin-bottom: 5%;
+    font-size: 20pt; 
+}
+
+.block3 li{
+    margin-bottom: 6%;
+    font-size: 14pt;
+}
+
+.our_progect button{
+    padding: 2%;
+    width: 170px;
+    border: none;
+    background-color: #005BC1;
+    color: white;
+    font-size: 12pt;
+    margin-left: 10%;
+}
+
+.our_progect button:focus{
+    outline: none;
+    background-color: black;
 }
