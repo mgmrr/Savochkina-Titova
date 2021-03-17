@@ -6,14 +6,16 @@
 
 .header {
     background-image: url(../img/background.png);
-    background-color: #c7b39b; /* Цвет фона */
     background-repeat: no-repeat;
     image-rendering: optimizeQuality;
+    background-size: cover;
+
    }
 
    .menu{
        display: flex;
        background-color: rgba(0, 90, 193, 0.5);
+    
        
     
    }
@@ -22,22 +24,24 @@
        list-style: none;
        display: flex;
        flex-direction: row;
+       width: 40%;
+       margin: auto;
        justify-content: space-between;
-       margin-left: 19%;
-       margin-top: 2.5%;
-       width: 35%;
+
+       
        
    }
 
-   .menu li{
-    padding: 3%;
-   }
 
    .menu a{
        text-decoration: none;
        color: white;
-       font-size: 15pt;
+       font-size: 14pt;
+       font-family: 'Open Sans', sans-serif;
+       
    }
+
+ 
 
 
    .menu img{
@@ -64,13 +68,15 @@
 .content h1{
     color: white;
     font-size: 30pt;
-    width: 135%;   
+    width: 135%; 
+    font-family: 'Oswald', sans-serif;  
 }
 
 .content p{
     color: white;
     font-size: 15pt;
     margin-top: 10%;
+    font-family: 'Open Sans', sans-serif;
 }
 
 .content button{
@@ -81,26 +87,34 @@
     width: 170px;
     font-size: 16pt;
     margin-top: 8%;
+    font-family: 'Open Sans', sans-serif;
 
+
+}
+
+.content button:focus{
+    outline: none;
+    background-color: rgba(0, 0, 255, 0.335)
 }
 
 
 .main{
     display: flex;
     flex-direction: column; 
-    margin: 6%;
-    padding-left: 15%;
+    
 }
 
 
 .our_progect{
     display: flex;
     flex-direction: row; 
-    margin-bottom: 6%;
+    width: 60%;
+    justify-content: center;
+    
 }
 
 .our_progect svg{
-    padding-right: 6%;
+    padding-right: 2%;
 }
 
 .our_progect h1{
@@ -155,6 +169,7 @@
     padding: 1%;
 }
 
+/*
 
 .product{
     display: flex;
@@ -231,16 +246,39 @@
 }
 
 .our_progect button{
-    padding: 2%;
-    width: 170px;
+    padding: 1%;
+    width: 200px;
     border: none;
     background-color: #005BC1;
     color: white;
     font-size: 12pt;
-    margin-left: 10%;
+    margin-left: 45%;
+    margin-top: -3%;
 }
 
 .our_progect button:focus{
     outline: none;
     background-color: black;
 }
+
+
+.sem{
+    display: flex;
+    flex-direction: row;
+    margin-top: 10%;
+}
+
+.sem img{
+    width: 255px;
+    height: 242px;
+}
+
+.milos{
+    display: flex;
+    flex-direction: column;
+    margin-left: 4%;
+}
+
+.milos h
+
+*/
