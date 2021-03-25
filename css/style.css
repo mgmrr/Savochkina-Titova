@@ -9,15 +9,11 @@
     background-repeat: no-repeat;
     image-rendering: optimizeQuality;
     background-size: cover;
-
    }
 
    .menu{
        display: flex;
        background-color: rgba(0, 90, 193, 0.5);
-    
-       
-    
    }
 
    .menu ul{
@@ -27,11 +23,8 @@
        width: 40%;
        margin: auto;
        justify-content: space-between;
-
-       
-       
+   
    }
-
 
    .menu a{
        text-decoration: none;
@@ -40,9 +33,6 @@
        font-family: 'Open Sans', sans-serif;
        
    }
-
- 
-
 
    .menu img{
        width: 140px;
@@ -104,22 +94,28 @@
     
 }
 
+.main_title{
+    display: inline-flex;
+    width: 22%;
+    justify-content: space-between;
+    margin-left: 9%;
+}
+
 
 .our_progect{
     display: flex;
-    flex-direction: row; 
-    width: 60%;
-    justify-content: center;
+    justify-content: space-between;
+    margin-top: 15%;
     
 }
 
-.our_progect svg{
-    padding-right: 2%;
+.main_title svg{
+    margin-top: 4%;
 }
 
 .our_progect h1{
     font-size: 20pt;
-    margin-top: -1%;
+    font-family: 'Oswald', sans-serif;
 }
 
 
@@ -143,26 +139,23 @@
 }
 
 .butt{
-    display: flex;
-    flex-direction: row;
-    padding-left: 47%;
-    padding-top: -2%;
-    
+    display: flex;  
+    margin-right: 9%; 
 }
 
 .butt button{
-   
-    width: 40px;
+    height: 45px;
+    width: 45px;
     background: none;
-    border: 1px solid rgb(0, 174, 255);
-    padding: 10%;
-    margin-top: -2%;
+    border: 1px solid rgb(0, 174, 255);  
 }
 
 
 .photos{
     display: flex;
     flex-direction: row;
+    justify-content: center;
+    margin-top: 5%;
 }
 
 .photos img{
