@@ -184,7 +184,7 @@
 
 .our_product{
     display: flex;
-    margin-top: 15%;
+    margin-top: 8%;
 }
 
 .our_product h1{
@@ -205,18 +205,102 @@
 }
 
 
+.main_rent{
+    display: inline-flex;
+    width: 30%;
+    justify-content: space-between;
+    margin-left: 9%;
+    margin-bottom: 5%;
+}
 
 
-/*
+.main_rent svg{
+    margin-top: 4%;
+}
 
-.product{
+.procat{
     display: flex;
     flex-direction: row;
 }
 
-.product img{
-    margin: 1%;
+.procat p{
+    width: 23%;
+    color: rgb(68, 68, 68);
+    font-family: 'Open Sans', sans-serif;
+    margin: 8%;
 }
+
+.new{
+    display: flex;
+    flex-direction: column;
+    border: 4px solid rgb(0, 90, 193);
+    padding: 3%;
+    width: 665px;
+}
+
+
+.block1{
+    display: flex;
+    flex-direction: row;
+}
+
+.block1 svg{
+    margin-left: 10%;
+}
+
+.block1 h4{
+    margin-top: 3%;
+    font-family: 'Oswald', sans-serif;
+}
+
+.butt2{
+    display: flex;  
+    margin-left: 5%; 
+    margin-left: 35%;
+}
+
+.butt2 button{
+    height: 45px;
+    width: 45px;
+    background: none;
+    border: 1px solid rgb(0, 174, 255);  
+}
+
+.block2{
+    display: flex;
+    flex-direction: row;
+}
+
+.block2 img{
+    width: 255px;
+    height: 250px;
+    margin: 2%;
+}
+
+
+.block3{
+    display: flex;
+    flex-direction: column;
+    margin: 6%;
+  
+}
+
+.block3 h3{
+    margin-bottom: 5%;
+    font-size: 17pt; 
+    font-family: 'Oswald', sans-serif;
+
+}
+
+.block3 li{
+    margin-bottom: 6%;
+    font-size: 10pt;
+    font-family: 'Open Sans', sans-serif;
+}
+
+
+/*
+
 
 
 .main p{
