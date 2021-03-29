@@ -14,6 +14,9 @@
     <!--font-family: 'Open Sans', sans-serif;-->
 </head>
 <body>
+
+    <script src="js/myjava.js" defer></script>
+
     <div class="wrapepr">
 
         <header class="header">
@@ -51,25 +54,56 @@
                                 <h1>НАШИ ПРОЕКТЫ</h1>
                             </div>
                             <div class="butt">
-                                <button><svg width="12" height="19" viewBox="0 0 12 19" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <button id="btnLeft" class="btnLeft"><svg width="12" height="19" viewBox="0 0 12 19" fill="none" xmlns="http://www.w3.org/2000/svg">
                                     <line x1="1.1024" y1="10.1977" x2="10.0072" y2="1.29292" stroke="#005BC1" stroke-width="2"/>
                                     <line y1="-1" x2="12.5932" y2="-1" transform="matrix(-0.707107 -0.707107 -0.707107 0.707107 9.90475 19)" stroke="#005BC1" stroke-width="2"/>
                                     </svg>
                                     
                                     </button>
-                                <button><svg width="12" height="19" viewBox="0 0 12 19" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <button id="btnRight" class="btnRight"><svg width="12" height="19" viewBox="0 0 12 19" fill="none" xmlns="http://www.w3.org/2000/svg">
                                     <line y1="-1" x2="12.5932" y2="-1" transform="matrix(-0.707107 -0.707107 -0.707107 0.707107 9.90485 10.9048)" stroke="#005BC1" stroke-width="2"/>
                                     <line x1="1.10246" y1="18.2929" x2="10.0072" y2="9.38813" stroke="#005BC1" stroke-width="2"/>
                                     </svg>
                                     </button>
                             </div>
             </div>
-
+       
             <div class="photos">
-                <img src="img/slide.png" alt="slide">
-                <img src="img/slide (1).png" alt="slide">
-            </div>
+                    <ol class="slider_blocks" id="slider">  
+                        <li class="slider_block" id="slider_block">   
+                            <img src="img/slide.png" alt="slide" id="imagen">
+                        </li> 
 
+                        <li class="slider_block" id="slider_block">   
+                            <img src="img/slide (1).png" alt="slide"  id="imagen">
+                        </li> 
+
+                        
+                        <li class="slider_block" id="slider_block">   
+                            <img src="img/tusa.png" alt="slide"  id="imagen">
+                        </li> 
+
+                            
+                        <li class="slider_block" id="slider_block">   
+                            <img src="img/slide.png" alt="slide" id="imagen">>
+                        </li> 
+
+
+                        <li class="slider_block" id="slider_block">   
+                                <img src="img/slide (1).png" alt="slide"  id="imagen">
+                        </li> 
+
+
+                        
+                        <li class="slider_block" id="slider_block">   
+                                <img src="img/tusa.png" alt="slide"  id="imagen">
+                        </li> 
+                        
+                        
+                    </ol> 
+            </div>
+       
+        
 
             <div class="our_product">
                 <div class="main_catalog">
@@ -204,8 +238,6 @@
                     </div>
                 </div>
 
-
-        
             
 </body>
 </html>
